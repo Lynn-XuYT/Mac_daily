@@ -1,8 +1,8 @@
 //
 //  main.m
-//  MACDailyPractice
+//  MACDailyProject
 //
-//  Created by Lynn on 2018/8/7.
+//  Created by lynnexu on 2018/8/7.
 //  Copyright © 2018年 DP. All rights reserved.
 //
 

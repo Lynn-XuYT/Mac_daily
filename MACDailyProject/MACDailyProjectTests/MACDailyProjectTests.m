@@ -1,18 +1,18 @@
 //
-//  MACDailyPracticeTests.m
-//  MACDailyPracticeTests
+//  MACDailyProjectTests.m
+//  MACDailyProjectTests
 //
-//  Created by Lynn on 2018/8/7.
+//  Created by lynnexu on 2018/8/7.
 //  Copyright © 2018年 DP. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface MACDailyPracticeTests : XCTestCase
+@interface MACDailyProjectTests : XCTestCase
 
 @end
 
-@implementation MACDailyPracticeTests
+@implementation MACDailyProjectTests
 
 - (void)setUp {
     [super setUp];
