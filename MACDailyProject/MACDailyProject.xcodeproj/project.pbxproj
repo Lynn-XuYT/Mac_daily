@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA90100B2123D5E2003B699E /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90100A2123D5E2003B699E /* BottomView.m */; };
 		BA90100E2123D89F003B699E /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90100D2123D89F003B699E /* LeftViewController.m */; };
+		BA90101121241657003B699E /* SearchFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101021241657003B699E /* SearchFieldCell.m */; };
+		BA9010142124171D003B699E /* SearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9010132124171D003B699E /* SearchField.m */; };
 		D1C1EF5821199E8A0092533F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1EF5721199E8A0092533F /* AppDelegate.m */; };
 		D1C1EF5B21199E8A0092533F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1EF5A21199E8A0092533F /* ViewController.m */; };
 		D1C1EF5D21199E8B0092533F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1EF5C21199E8B0092533F /* Assets.xcassets */; };
@@ -40,6 +42,10 @@
 		BA90100A2123D5E2003B699E /* BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 		BA90100C2123D89F003B699E /* LeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		BA90100D2123D89F003B699E /* LeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		BA90100F21241657003B699E /* SearchFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchFieldCell.h; sourceTree = "<group>"; };
+		BA90101021241657003B699E /* SearchFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchFieldCell.m; sourceTree = "<group>"; };
+		BA9010122124171D003B699E /* SearchField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchField.h; sourceTree = "<group>"; };
+		BA9010132124171D003B699E /* SearchField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchField.m; sourceTree = "<group>"; };
 		D1C1EF5321199E8A0092533F /* MACDailyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MACDailyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C1EF5621199E8A0092533F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1C1EF5721199E8A0092533F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -119,6 +125,10 @@
 				BA90100A2123D5E2003B699E /* BottomView.m */,
 				BA90100C2123D89F003B699E /* LeftViewController.h */,
 				BA90100D2123D89F003B699E /* LeftViewController.m */,
+				BA90100F21241657003B699E /* SearchFieldCell.h */,
+				BA90101021241657003B699E /* SearchFieldCell.m */,
+				BA9010122124171D003B699E /* SearchField.h */,
+				BA9010132124171D003B699E /* SearchField.m */,
 			);
 			path = MACDailyProject;
 			sourceTree = "<group>";
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA90101121241657003B699E /* SearchFieldCell.m in Sources */,
 				D1C1EF5B21199E8A0092533F /* ViewController.m in Sources */,
+				BA9010142124171D003B699E /* SearchField.m in Sources */,
 				BA90100E2123D89F003B699E /* LeftViewController.m in Sources */,
 				D1C1EF6321199E8B0092533F /* main.m in Sources */,
 				D1C1EF5821199E8A0092533F /* AppDelegate.m in Sources */,
