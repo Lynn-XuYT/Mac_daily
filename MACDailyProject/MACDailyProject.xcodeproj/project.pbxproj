@@ -11,6 +11,9 @@
 		BA90100E2123D89F003B699E /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90100D2123D89F003B699E /* LeftViewController.m */; };
 		BA90101121241657003B699E /* SearchFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101021241657003B699E /* SearchFieldCell.m */; };
 		BA9010142124171D003B699E /* SearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9010132124171D003B699E /* SearchField.m */; };
+		BA90101921242035003B699E /* RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101821242035003B699E /* RootModel.m */; };
+		BA90101C212420A1003B699E /* LeafModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101B212420A1003B699E /* LeafModel.m */; };
+		BA90102021242256003B699E /* OutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101F21242256003B699E /* OutlineViewController.m */; };
 		D1C1EF5821199E8A0092533F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1EF5721199E8A0092533F /* AppDelegate.m */; };
 		D1C1EF5B21199E8A0092533F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1EF5A21199E8A0092533F /* ViewController.m */; };
 		D1C1EF5D21199E8B0092533F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1EF5C21199E8B0092533F /* Assets.xcassets */; };
@@ -46,6 +49,12 @@
 		BA90101021241657003B699E /* SearchFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchFieldCell.m; sourceTree = "<group>"; };
 		BA9010122124171D003B699E /* SearchField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchField.h; sourceTree = "<group>"; };
 		BA9010132124171D003B699E /* SearchField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchField.m; sourceTree = "<group>"; };
+		BA90101721242035003B699E /* RootModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootModel.h; sourceTree = "<group>"; };
+		BA90101821242035003B699E /* RootModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootModel.m; sourceTree = "<group>"; };
+		BA90101A212420A1003B699E /* LeafModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeafModel.h; sourceTree = "<group>"; };
+		BA90101B212420A1003B699E /* LeafModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafModel.m; sourceTree = "<group>"; };
+		BA90101E21242256003B699E /* OutlineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutlineViewController.h; sourceTree = "<group>"; };
+		BA90101F21242256003B699E /* OutlineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutlineViewController.m; sourceTree = "<group>"; };
 		D1C1EF5321199E8A0092533F /* MACDailyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MACDailyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C1EF5621199E8A0092533F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1C1EF5721199E8A0092533F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +98,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA90101521242008003B699E /* OutlineView */ = {
+			isa = PBXGroup;
+			children = (
+				BA90101D21242228003B699E /* ViewController */,
+				BA9010162124201B003B699E /* model */,
+			);
+			path = OutlineView;
+			sourceTree = "<group>";
+		};
+		BA9010162124201B003B699E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BA90101721242035003B699E /* RootModel.h */,
+				BA90101821242035003B699E /* RootModel.m */,
+				BA90101A212420A1003B699E /* LeafModel.h */,
+				BA90101B212420A1003B699E /* LeafModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BA90101D21242228003B699E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA90101E21242256003B699E /* OutlineViewController.h */,
+				BA90101F21242256003B699E /* OutlineViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		D1C1EF4A21199E8A0092533F = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +150,7 @@
 		D1C1EF5521199E8A0092533F /* MACDailyProject */ = {
 			isa = PBXGroup;
 			children = (
+				BA90101521242008003B699E /* OutlineView */,
 				D1C1EF5621199E8A0092533F /* AppDelegate.h */,
 				D1C1EF5721199E8A0092533F /* AppDelegate.m */,
 				D1C1EF5921199E8A0092533F /* ViewController.h */,
@@ -281,10 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA90101121241657003B699E /* SearchFieldCell.m in Sources */,
+				BA90101C212420A1003B699E /* LeafModel.m in Sources */,
 				D1C1EF5B21199E8A0092533F /* ViewController.m in Sources */,
 				BA9010142124171D003B699E /* SearchField.m in Sources */,
+				BA90101921242035003B699E /* RootModel.m in Sources */,
 				BA90100E2123D89F003B699E /* LeftViewController.m in Sources */,
 				D1C1EF6321199E8B0092533F /* main.m in Sources */,
+				BA90102021242256003B699E /* OutlineViewController.m in Sources */,
 				D1C1EF5821199E8A0092533F /* AppDelegate.m in Sources */,
 				BA90100B2123D5E2003B699E /* BottomView.m in Sources */,
 			);
