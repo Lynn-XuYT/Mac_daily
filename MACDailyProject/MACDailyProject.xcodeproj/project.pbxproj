@@ -14,6 +14,9 @@
 		BA90101921242035003B699E /* RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101821242035003B699E /* RootModel.m */; };
 		BA90101C212420A1003B699E /* LeafModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101B212420A1003B699E /* LeafModel.m */; };
 		BA90102021242256003B699E /* OutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90101F21242256003B699E /* OutlineViewController.m */; };
+		BA9010342124713C003B699E /* TableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9010332124713C003B699E /* TableCellView.m */; };
+		BA901037212472ED003B699E /* OutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA901036212472ED003B699E /* OutlineView.m */; };
+		BAD48BF0212BBC2100F9D7A8 /* TableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD48BEF212BBC2000F9D7A8 /* TableRowView.m */; };
 		D1C1EF5821199E8A0092533F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1EF5721199E8A0092533F /* AppDelegate.m */; };
 		D1C1EF5B21199E8A0092533F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1EF5A21199E8A0092533F /* ViewController.m */; };
 		D1C1EF5D21199E8B0092533F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C1EF5C21199E8B0092533F /* Assets.xcassets */; };
@@ -55,6 +58,12 @@
 		BA90101B212420A1003B699E /* LeafModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafModel.m; sourceTree = "<group>"; };
 		BA90101E21242256003B699E /* OutlineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutlineViewController.h; sourceTree = "<group>"; };
 		BA90101F21242256003B699E /* OutlineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutlineViewController.m; sourceTree = "<group>"; };
+		BA9010322124713C003B699E /* TableCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableCellView.h; sourceTree = "<group>"; };
+		BA9010332124713C003B699E /* TableCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableCellView.m; sourceTree = "<group>"; };
+		BA901035212472ED003B699E /* OutlineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OutlineView.h; sourceTree = "<group>"; };
+		BA901036212472ED003B699E /* OutlineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutlineView.m; sourceTree = "<group>"; };
+		BAD48BEE212BBC2000F9D7A8 /* TableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableRowView.h; sourceTree = "<group>"; };
+		BAD48BEF212BBC2000F9D7A8 /* TableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableRowView.m; sourceTree = "<group>"; };
 		D1C1EF5321199E8A0092533F /* MACDailyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MACDailyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C1EF5621199E8A0092533F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1C1EF5721199E8A0092533F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,8 +130,14 @@
 		BA90101D21242228003B699E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BAD48BEE212BBC2000F9D7A8 /* TableRowView.h */,
+				BAD48BEF212BBC2000F9D7A8 /* TableRowView.m */,
 				BA90101E21242256003B699E /* OutlineViewController.h */,
 				BA90101F21242256003B699E /* OutlineViewController.m */,
+				BA9010322124713C003B699E /* TableCellView.h */,
+				BA9010332124713C003B699E /* TableCellView.m */,
+				BA901035212472ED003B699E /* OutlineView.h */,
+				BA901036212472ED003B699E /* OutlineView.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -324,11 +339,14 @@
 				D1C1EF5B21199E8A0092533F /* ViewController.m in Sources */,
 				BA9010142124171D003B699E /* SearchField.m in Sources */,
 				BA90101921242035003B699E /* RootModel.m in Sources */,
+				BAD48BF0212BBC2100F9D7A8 /* TableRowView.m in Sources */,
 				BA90100E2123D89F003B699E /* LeftViewController.m in Sources */,
 				D1C1EF6321199E8B0092533F /* main.m in Sources */,
+				BA9010342124713C003B699E /* TableCellView.m in Sources */,
 				BA90102021242256003B699E /* OutlineViewController.m in Sources */,
 				D1C1EF5821199E8A0092533F /* AppDelegate.m in Sources */,
 				BA90100B2123D5E2003B699E /* BottomView.m in Sources */,
+				BA901037212472ED003B699E /* OutlineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

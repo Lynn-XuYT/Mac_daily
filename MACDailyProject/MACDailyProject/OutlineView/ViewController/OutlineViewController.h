@@ -7,6 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class TableCellView;
+@class RootModel;
+
+@protocol OutlineViewControllerDeleagate <NSObject>
+
+- (void)mouseClickDown:(TableCellView *)cell;
+- (void)mouseClickDownAtRoot:(RootModel *)item;
+@end
 
 @interface OutlineViewController : NSViewController
 
